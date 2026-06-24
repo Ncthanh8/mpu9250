@@ -1,6 +1,6 @@
 /**
  * @file mpu9250.h
- * @author NgThanh (tienmoney32@gmail.com)
+ * @author NgxTh (tienmoney32@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2026-06-20
