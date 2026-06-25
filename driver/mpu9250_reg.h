@@ -1,6 +1,6 @@
 /**
  * @file mpu9250_reg.h
- * @author your name (you@domain.com)
+ * @author NgxTh(tienmoney32@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2026-06-20
@@ -128,7 +128,7 @@
 #define EXT_SENS_DATA_20        0x5D
 #define EXT_SENS_DATA_21        0x5E
 #define EXT_SENS_DATA_22        0x5F
-#define EXT_SENS_DATA_22        0x60
+#define EXT_SENS_DATA_23        0x60
 
 /*******************************************************/
 
@@ -160,6 +160,38 @@
 #define I2CDIS                  0x0F 
 
 /***********************************************************/
+/*********** Function************** */
+
+#define GS_ACCEL_SCALE_2G           1
+#define GS_ACCEL_SCALE_4G           2
+#define GS_ACCEL_SCALE_8G           3
+#define GS_ACCEL_SCALE_16G          4
+
+#define GS_ODR_3_91_HZ              4
+#define GS_ODR_7_81_HZ              5
+#define GS_ODR_15_63_HZ             6
+#define GS_ODR_31_25_HZ             7
+#define GS_ODR_62_5_HZ              8
+#define GS_ODR_125_HZ               9
+#define GS_ODR_250_HZ               10
+#define GS_ODR_500_HZ               11
+#define GS_ODR_1000_HZ              12
+
+#define GS_DISABLE_XA               1
+#define GS_DISABLE_YA               2
+#define GS_DISABLE_XA               3
+
+#define GS_DISABLE_XG               4
+#define GS_DISABLE_XG               5
+#define GS_DISABLE_XG               6
+
+#define GS_PWR_H_RESET_MODE         1
+#define GS_PWR_SLEEP_MODE           2
+#define GS_PWR_CYCLE_MODE           3
+#define GS_PWR_GYRO_STD_MODE        4
+#define GS_PWR_PD_PSTAT_MODE        5
+
+
 
 
 
